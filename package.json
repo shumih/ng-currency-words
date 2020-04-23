@@ -9,6 +9,15 @@
     "build_lib": "ng build ng-currency-words",
     "pack_lib": "cd dist/ng-currency-words && npm pack"
   },
+  "homepage": "https://github.com/shumih/ng-currency-words#readme",
+  "bugs": {
+    "email": "shumih.anton@gmail.com",
+    "url": "https://github.com/shumih/ng-currency-words/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shumih/ng-currency-words.git"
+  },
   "dependencies": {
     "@angular/animations": "~9.0.1",
     "@angular/common": "~9.0.1",
