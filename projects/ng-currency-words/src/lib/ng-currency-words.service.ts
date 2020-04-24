@@ -159,7 +159,7 @@ export class NgCurrencyWordsService {
 
   private parseDecimals(number: string, options: NgCurrencyWordsOptions) {
     number =
-      +number === 0 ? 'ноль' : this.parseNumber(number, 0, options.currency_minor_title, options.currency_gender);
+      +number === 0 ? `ноль ${options.currency_minor_title[2]}` : this.parseNumber(number, 0, options.currency_minor_title, options.currency_gender);
 
     return ' ' + number;
   }
