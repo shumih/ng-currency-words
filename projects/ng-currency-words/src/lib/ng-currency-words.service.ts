@@ -32,7 +32,7 @@ export class NgCurrencyWordsService {
     ['', 'сто', 'двести', 'триста', 'четыреста', 'пятьсот', 'шестьсот', 'семьсот', 'восемьсот', 'девятьсот'],
   ];
 
-  public rubles(value: number | string, options: Partial<NgCurrencyWordsOptions> = {}) {
+  public rubles(value: number | string | null, options: Partial<NgCurrencyWordsOptions> = {}) {
     let count, decimals, digit, length, numeral, parts;
 
     const mergedOptions: NgCurrencyWordsOptions = {

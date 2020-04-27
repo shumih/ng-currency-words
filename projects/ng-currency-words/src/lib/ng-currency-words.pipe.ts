@@ -9,6 +9,8 @@ export class NgCurrencyWordsPipe implements PipeTransform {
   constructor(private service: NgCurrencyWordsService) {}
 
   transform(value: number | string | null, options: Partial<NgCurrencyWordsOptions> = {}): string {
-    return value != null ? this.service.rubles(value, options) : '';
+    const result = this.service.rubles(value, options);
+
+    return result || '';
   }
 }
