@@ -1,9 +1,9 @@
 {
   "name": "@shumih/ng-currency-words",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0",
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0",
     "tslib": "^1.10.0"
   }
 }
